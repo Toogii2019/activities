@@ -11,9 +11,9 @@ function fooTer() {
 
 function heaDer() {
     document.write(
-        '<div class="header">' +
+        '<header class="header">' +
             '<h1>Hori<span class="seo">seo</span>n</h1>' +
-            '<div>' +
+            '<nav>' +
                 '<ul>' +
                     '<li>' +
                         '<a href="#search-engine-optimization">Search Engine Optimization</a>' +
@@ -25,7 +25,7 @@ function heaDer() {
                         '<a href="#social-media-marketing">Social Media Marketing</a>' +
                     '</li>' +
                 '</ul>' +
-            '</div>' +
-        '</div>'
+            '</nav>' +
+        '</header>'
     );
 }
