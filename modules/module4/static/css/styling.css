@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 10;
+	margin: 10;
+	padding-top: 10;
+}
+
+h1 {
+	width: 250px;
+	background-color: grey;
+	font: white;
+	text-align: center;
+	border-width: 5px;
+	border-style: solid;
+	border-color: navy;
+	
+
+}
+h4 {
+	text-decoration: underline;
+	text-indent: 30px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: navy;	
+	display: flex;
+	align-items: flex-start;
+	width: 100px;
+}
+.bio_content {
+	text-indent: 2em;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+
+}
