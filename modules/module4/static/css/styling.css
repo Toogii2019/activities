@@ -4,7 +4,67 @@
 	margin: 10;
 	padding-top: 10;
 }
+body {
+    box-sizing: border-box;
+    padding: 10;
+	margin: 10;
+	border: 10px, grey solid;
+	border-color: grey;
+	padding-top: 10;	
+}
 
+.headings {
+	text-align: center;
+}
+
+.main-container-1 {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	border: 5px grey solid;
+	justify-content: space-evenly;
+	margin-left: 2%;
+	margin-top: 5%;
+}
+.bio-content {
+	border: 10px green;
+	margin-top: 5%;
+	margin-right: 40px;
+	width: 150%;
+	background-color: whitesmoke;
+	padding: 10px;
+	margin-bottom: 50px;
+
+}
+
+
+img {
+	position: relative;
+	width: 70%;
+	height: 80%;
+	align-items: center;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.main-container-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+.members-content {
+	border: 5px solid grey;
+	padding: 10%
+}
+
+.favourite-song-container {
+	border: 5px solid grey;
+	padding: 7%;
+}
+
+/*
 h1 {
 	width: 250px;
 	background-color: grey;
@@ -35,3 +95,4 @@ h4 {
 	display: block;
 
 }
+*/
