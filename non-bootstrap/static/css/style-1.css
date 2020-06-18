@@ -1,0 +1,85 @@
+/* CSS Variables */
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --light-blue: rgb(169, 222, 222);
+    --black: rgb(74, 82, 82);
+    --shadow: 0 1px 5px rgba(104,104,104, 0.8);
+    --title-color: rgb(135, 125, 116);
+}
+
+body {
+    background: var(--primary);
+    margin: 10px 20px;
+    line-height: 1.4;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+    justify-content: space-around;
+    margin: 10px 30px;
+}
+header {
+    background: var(--light); 
+    padding: 1rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+    font-family: "Luckiest Guy", sans-serif;
+    color: var(--title-color);
+}
+
+.main-nav {
+    display: grid;
+}
+
+.main-nav ul {
+    background: var(--light-blue);
+    padding: 1rem;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+.main-nav a {
+    font-family: sans-serif;
+    color: var(--black);
+}
+.main-nav a:hover {
+    color: var(--light);
+
+}
+
+footer {
+    background: var(--black);
+    margin: 0 0 2px 0;
+
+}
+footer p {
+    color: white; 
+    text-align: center;
+    padding: 10px;
+}
+
+.main-section {
+    display: block;
+    background: var(--light);
+    padding: 10px;
+    box-shadow: var(--shadow);
+    
+}
+
+.my-bio {
+    text-align: justify;
+    margin: 10px;
+}
+.my-picture img {
+    height: 30%;
+    width: 30%;
+    float: left;
+    margin: 10px;
+    box-shadow: var(--shadow);
+}
+
+@media(max-width: 700px) {
+    .main-nav {
+    }
+}
