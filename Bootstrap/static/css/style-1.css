@@ -40,20 +40,27 @@ body {
     /* margin: 10px; */
     /* margin-left: 30px; */
     padding:10px;
+    margin: 10px;
+    
 }
 .body-col {
+    display: inline-block;
     box-shadow: var(--shadow);
     background: var(--light);
     justify-content: center;
     border: 1px solid;
     height: 80vh;
+    padding: 10px;
+
+}
+.picture {
+    margin: 10px;
 }
 
 .picture h3 {
     color: rgb(118, 206, 118)
 }
 .picture img {
-    /* float: left; */
     float: left;
     width: 200px;
     height: 250px;
@@ -81,7 +88,9 @@ hr {
     text-align: center;
     margin: 10px;
 }
-
+.form-container {
+    padding: 10px;
+}
 /* @media screen and (max-width: 576px) {
     img {
         align-items: center;
