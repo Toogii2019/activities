@@ -37,13 +37,17 @@ body {
 .nav-col {
     display: block;
     text-align: center;
-    padding: 10px;
+    padding-top: 37px;
 }
 
 .nav-col a {
     text-decoration: none;
     font-family: sans-serif;
     color: rgb(28, 104, 100);
+    padding: 41px;
+}
+.nav-col a:hover {
+    background: var(--dark);
 }
 
 .body-row {
@@ -62,7 +66,7 @@ body {
     background: var(--light);
     justify-content: center;
     /* border: 1px solid; */
-    height: 100vh;
+    height: auto;
     padding: 10px;
 
 }
