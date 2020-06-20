@@ -9,7 +9,7 @@ function fooTer() {
     );
 }
 
-function heaDer() {
+function navBar() {
     document.write(
         '<header class="header">' +
             '<h1>Hori<span class="seo">seo</span>n</h1>' +
